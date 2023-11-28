@@ -1,0 +1,36 @@
+@media (max-width: 1400px) {
+    .header {
+        padding: 5%;
+    }
+
+    .header-menu {
+        justify-content: center;
+    }
+
+    .presentation {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .presentation-content {
+        width: auto;
+    }
+    
+    .presentation-description {
+        width: auto;
+    }
+
+    .presentation-description-link {
+        width: 12%;
+        padding: 1%;
+    }
+
+    .service {
+        width: auto;
+    }
+
+    .service-content-section {
+        width: auto;
+        flex-direction: column;
+    }
+}

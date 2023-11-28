@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #080808;
+    --secundary-color: #ffffff;
+    --tertiary-color: #141414;
+
+    --primary-font: 'Kdam Thmor Pro', sans-serif;
+    --secundary-font: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 2% 0 0 5%;
+}
+
+.header-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.header-menu-link {
+    color: var(--secundary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+.header-menu-link:hover {
+    border-bottom: 2px solid var(--secundary-color);
+}
+
+.presentation{
+    padding: 5% 6% 10% 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.presentation-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-content-title {
+    color: var(--secundary-color);
+    font-size:3rem;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    padding: 2% 2%;
+    gap: 5px;
+}
+
+.presentation-title-featured {
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+    font-size: 4.50rem;
+    padding: 0 0 0 6%;
+    border: 1px solid var(--secundary-color);
+    border-radius: 8px;
+}
+
+.presentation-content-image {
+    border-radius: 8px;
+
+}
+
+.presentation-description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10% 5% 0% 5%;
+    gap: 35px;
+}
+
+.presentation-description-text {
+    color: var(--secundary-color);
+    font-family: var(--secundary-font);
+    font-size: 1.90rem;
+}
+
+.presentation-description-link {
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+    font-family: var(--secundary-font);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid var(--secundary-color);
+    padding: 2%;
+    width: 20%;
+    border-radius: 6px;
+}
+
+.presentation-description-link:hover {
+    border: 2px solid var(--secundary-color);
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+}
+
+.footer {
+    background-color: var(--tertiary-color);
+    color: var(--secundary-color);
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    padding: 10px;
+}

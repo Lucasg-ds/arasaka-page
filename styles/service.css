@@ -1,0 +1,70 @@
+
+.service {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+.service-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0% 2% 0%;
+    gap: 10px;
+}
+
+.service-presentation-title {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+.service-presentation-text {
+    font-size: 1.25rem;
+    font-family: var(--secundary-font);
+    font-weight: 400;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+
+.service-content-title {
+    font-size: 1.50rem;
+    font-family: var(--secundary-font);
+    font-weight: 600;
+    padding: 2% 0% 3% 0%;
+}
+
+.service-content-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 8%;
+}
+
+.service-content-section-advisement {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 3px;
+    background-color: var(--tertiary-color);
+    gap: 10px;
+    padding: 1%;
+}
+
+.service-content-section-advisement-image {
+    width: 100%;
+    border: 2px solid none;
+    border-radius: 3px;
+}
+
+.service-content-section-advisement-description {
+    width: 100%;
+    font-family: var(--secundary-font);
+    font-size: 1.15rem;
+    font-weight: 400;
+}
