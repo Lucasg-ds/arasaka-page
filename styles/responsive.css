@@ -35,7 +35,7 @@
     }
 
     .presentation-description-link {
-        width: 15%;
+        width: 20%;
         padding: 2%
     }
 
@@ -53,7 +53,7 @@
     .header {
         justify-content: center;
     }
-    
+
     .header-menu {
         flex-direction: column;
         gap: 10px;

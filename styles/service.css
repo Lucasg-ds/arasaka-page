@@ -18,25 +18,28 @@
     font-weight: 600;
     font-family: var(--primary-font);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .service-presentation-text {
     font-size: 1.25rem;
     font-family: var(--secundary-font);
     font-weight: 400;
+    text-align: center;
 }
 
 .service-content {
     display: flex;
     flex-direction: column;
-    padding: 3% 5%;
+    padding: 10% 5%;
+    gap: 30px;
 }
 
 .service-content-title {
     font-size: 1.50rem;
     font-family: var(--secundary-font);
     font-weight: 600;
-    padding: 2% 0% 3% 0%;
+    padding: 5% 0% 0% 2%;
 }
 
 .service-content-section {
